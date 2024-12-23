@@ -1,0 +1,39 @@
+.calculator {
+  width: 220px;
+  margin: 100px auto;
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.buttons button {
+  width: 45px;
+  height: 45px;
+  font-size: 18px;
+  margin: 5px;
+  cursor:pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+}
+
+.buttons button:hover {
+  background-color: #ccc;
+}
+
+.buttons button:active {
+  background-color: #999;
+}
+.App{
+  text-align:center;
+}
